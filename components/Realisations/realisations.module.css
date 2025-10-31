@@ -1,0 +1,87 @@
+.body{
+    background-color: white;
+    color:black;
+  
+    
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.titel h2{
+    font-size: 50px ;
+    font-family: serif;
+}
+.titel p{
+    font-size: 20px ;
+    color: #666;
+}
+
+
+
+/* Grid that auto-resizes and stacks on small screens */
+.bigimagdiv{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  padding: 40px 20px;
+}
+
+/* 2 columns on tablets */
+@media (max-width: 1024px){
+  .bigimagdiv{ grid-template-columns: repeat(2, 1fr); }
+}
+
+/* 1 column on phones */
+@media (max-width: 640px){
+  .bigimagdiv{ grid-template-columns: 1fr; }
+}
+
+/* Card + image wrapper ensure same height for all */
+.card{
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Option A (recommended): keep the same proportion for all cards */
+.imageWrapper{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;   /* all cards same relative HEIGHT */
+  /* If you prefer fixed pixel heights instead, comment line above
+     and uncomment the height lines below:
+     height: 520px;
+     @media (max-width: 1024px){ height: 420px; }
+     @media (max-width: 640px){ height: 320px; }
+  */
+}
+
+/* Make images fill the box without distortion */
+.imageWrapper img{
+  position: absolute;     /* sit inside the wrapper */
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* crops so all look the same height */
+  display: block;
+}
+
+/* Bottom gradient so text is readable */
+.imageWrapper::after{
+  content:"";
+  position:absolute; inset:0;
+  background: linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,0));
+  z-index:1;
+}
+
+/* Caption on top of image */
+.caption{
+  position:absolute; left:16px; right:16px; bottom:14px;
+  z-index:2; color:#fff;
+}
+.caption h3{ margin:0 0 6px; font-size:14px; opacity:.9; }
+.caption p{ margin:0; font-size:18px; font-weight:600; }

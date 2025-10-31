@@ -1,0 +1,22 @@
+.section{
+    background-color: white;
+    color: black;
+
+}
+
+.vide{
+    width: 100%;
+    height: 100px;
+}
+.section h1{
+    font-family: serif;
+    font-size: 50px;
+    margin:30px
+
+}
+
+.section p{
+    color: #666;
+    font-size: 20px;
+    margin: 0px 30px ;
+}

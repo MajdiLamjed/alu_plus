@@ -1,0 +1,30 @@
+.body{
+    background-color: white;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+.titel h1{
+    margin: 20px;
+    font-family: serif;
+    font-size:45px;
+    
+}
+
+.titel p{
+    font-size: 20px;
+    color: #666;
+
+}
+
+.btndiv{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.link{
+    text-decoration: none;
+}

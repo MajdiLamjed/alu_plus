@@ -1,0 +1,52 @@
+.bigdiv{
+    background-color: white;
+    color: black;
+   
+    padding: 50px 40px;
+    text-align: center;
+
+}
+.titeldiv h2{
+   font-family: serif;
+   margin-bottom: 10px;
+   font-size: 50px;
+}
+.titeldiv p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.rowdiv{
+    display: flex;
+               
+    gap: 40px;
+}
+
+.div1,.div2,.div3,.div4 {
+    border-radius: 12px;
+   
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    font-family: serif;
+}
+
+
+.div1 p,.div2 p,.div3 p,.div4 p{
+    color: #666;
+   
+    margin: 10px 20px;
+    
+}
+
+
+@media (max-width: 800px){
+    .rowdiv{
+        flex-wrap: wrap; 
+        
+    }
+    .div1,.div2,.div3,.div4{
+        width: 100%;
+    }
+}
