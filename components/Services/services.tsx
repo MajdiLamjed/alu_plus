@@ -13,7 +13,7 @@ export default function services(){
                     <div className={style.div1}>
                         <DoorOpen/>
                         <h3>Portes Aluminium</h3>
-                        <p>Portes d'entrée et intérieures en aluminium de haute qualité</p>
+                        <p>Portes d&apos;entrée et intérieures en aluminium de haute qualité</p>
                     </div>
                     <div className={style.div2}>
                         <Frame/>

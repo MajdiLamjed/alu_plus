@@ -1,7 +1,7 @@
 import style from"../showroom/hero.module.css"
 export default function ServicesHero(){
     return(
-        <section className={style.section} style={{margin:"0 0 50px 0;"}}>
+        <section className={style.section} style={{margin:"0 0 50px 0"}}>
             <div className={style.vide}></div>
             <div>
             <h1>Nos Services</h1>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from  "next/image"
+
 import style from "./realisations.module.css"
 import Button from "./Button";
 
@@ -24,7 +24,7 @@ export default function Realisations(){
                             <img src={"/doors.png"} alt={"door"} />
                             <div className={style.caption}>
                                 <h3>Portes Aluminium</h3>
-                                <p>Porte d'entrée moderne</p>
+                                <p>Porte d&apos;entrée moderne</p>
                             </div>
                         </div>
                     </Link>

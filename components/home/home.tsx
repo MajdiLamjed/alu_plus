@@ -1,6 +1,5 @@
 import style from "./home.module.css"
-import backimag from "@/images/modern-aluminum-facade.webp"
-import Image from "next/image"
+
 import Link from "next/link"
 export default function Homepage() {
   return (

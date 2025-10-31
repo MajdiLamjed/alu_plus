@@ -7,7 +7,7 @@ export default function Contentserv(){
                 <div className='col-md-6 '><Image className='rounded-4 overflow-hidden'  height={500}width={500}alt=''src={"/doors.png"}></Image></div>
                 <div className='col-md-6 '>
                     <h2 className='display-4 ff-serif'>Portes Aluminium</h2>
-                    <p className='lead text-muted'>Portes d'entrée et intérieures en aluminium alliant sécurité, isolation et esthétique. <br />
+                    <p className='lead text-muted'>Portes d&apos;entrée et intérieures en aluminium alliant sécurité, isolation et esthétique. <br />
                      Personnalisables selon vos besoins.</p>
                     <ul className='list-unstyled'>
                         <li>👌​ Haute sécurité</li>
